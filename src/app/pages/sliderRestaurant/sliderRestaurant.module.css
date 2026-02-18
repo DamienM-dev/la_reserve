@@ -1,0 +1,7 @@
+.containerSlider {
+    height: 10em;
+    width: 100%;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    background-color: lightcoral;
+}

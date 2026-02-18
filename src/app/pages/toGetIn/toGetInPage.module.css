@@ -1,0 +1,62 @@
+.mainContainer {
+    position: relative;
+    background-color: var(--colorInsideCards);
+    text-align: center;
+    padding: 0 13px;
+}
+
+.mainContainer h2 {
+    margin-bottom: 30px;
+    font-family: allura;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.mainContainer a {
+text-decoration: underline;
+font-size: 18px;
+
+}
+
+.mainContainer a:visited {
+    color: var(--colorTextPrincipal)
+}
+
+.adress {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 4px;
+}
+.containerAdress {
+    display: flex;
+    margin-bottom: 20px;
+}
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--backgroundGeneral);
+    border: solid 1px var(--colorTextPrincipal);
+    border-radius: 8px;
+    width: 146px;
+    height: 33px;
+    margin-top: 40px;
+}
+
+.button a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+}
+.topFlower {
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+.bottomFlower {
+    position: relative;
+    bottom: -5px;
+    left: 120px;
+    transform: rotateX(180deg);
+}

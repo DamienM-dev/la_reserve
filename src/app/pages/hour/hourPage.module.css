@@ -1,0 +1,29 @@
+.mainContainer {
+    text-align: center;
+}
+.mainContainer h2 {
+    margin-bottom: 30px;
+    font-family: allura;
+    font-size: 30px;
+    font-weight: 400;
+}
+.mainContainer section {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.firstSection  {
+margin-bottom: 20px;
+}
+
+.secondSection {
+    margin-bottom: 30px;
+}
+.mainContainer section span {
+    margin-right: 10px;
+    font-weight: bold;
+}
+.flower {
+    margin-bottom: 40px;
+}

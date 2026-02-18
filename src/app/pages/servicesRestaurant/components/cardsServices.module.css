@@ -1,0 +1,67 @@
+.cardsServices {
+    position: relative;
+    background-color: var(--colorCards);
+    height: 172px;
+    margin: 0 13px 36px 13px;
+    border-radius: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+/* styling image inside cards */
+
+.imageFlowerPosition {
+position:absolute;
+left: 0;
+top:40%;
+
+}
+.imageFlowerBottomLeft {
+    position: absolute;
+    right:  0;
+    bottom: 10%;
+}
+.imageFlowerMiddleLeft {
+position: absolute;
+left: 28%;
+top:40%;
+transform: rotateY(8deg);
+}
+.imageFlowerMiddleRight {
+position: absolute;
+right: 28%;
+top: 40%;
+transform: rotateY(174deg);
+}
+.imageFlowerTopLeft {
+position: absolute;
+left: 5%;
+top:0;
+
+}
+.imageFlowerTopRight {
+position: absolute;
+right: 5%;
+top: 0;
+
+
+}
+
+.titleCardsServices {
+color: var(--colorInsideCards);
+font-size: 14px;
+font-weight: unset;
+margin-bottom: 5px;
+}
+.subTitle {
+    color:var(--flowersStyling);
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.containerButton {
+    background-color: var(--colorInsideCards);
+    border-radius: 5px;
+    padding: 6px 20px;
+    box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.12);
+}

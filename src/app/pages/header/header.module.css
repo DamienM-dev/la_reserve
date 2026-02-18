@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    line-height: 0.9;
+}
+.logo{
+    font-size: 40px;
+    font-family: 'allura';
+    
+}
+.brasserie{
+    font-size: 14px;
+    text-align: center;
+    font-weight:lighter;
+}
+
+
+.burgerMenu {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.burgerMenu span {
+   border-bottom: 3px solid;
+   width: 100%;
+   height: 100%;
+}

@@ -1,0 +1,57 @@
+.containerCommentary {
+  background-color: var(--colorInsideCards);
+  padding: 1px 0;
+}
+.cardsCommentary {
+    background-color: var(--colorCards);
+    color: var(--colorInsideCards);
+    margin: 23px 13px 23px 13px;
+    padding: 10px;
+    border-radius: 18px;
+    box-shadow: inset 0px 4px 40px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.star {
+  fill: #FBFF00;
+  stroke: var(--backgroundGeneral);
+  stroke-width: 1.5;
+  width: 20px;
+}
+
+.googleWord {
+    font-weight: bold;
+}
+.blockNote {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-bottom: 10px;
+  width: 80%;
+
+}
+.reviewContainer {
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.blockImage {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blockReview {
+      display: flex;
+  flex-direction: column;
+    
+}
+
+.blockNote p {
+    margin: 0;
+  line-height: 1.5;
+}
+.reviewParagraph {
+    font-style: italic;
+}
