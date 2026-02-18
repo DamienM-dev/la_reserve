@@ -1,11 +1,13 @@
 import styles from './sliderRestaurant.module.css'
 
+import ImageSlider from './components/slider'
+
 export default function sliderRestaurant() {
     return(
-        <div>
-            <div className={styles.containerSlider}>
-
+        <section className={styles.containerSlider}>
+            <div>
+                <ImageSlider />
             </div>
-        </div>
+        </section>
     )
 }
